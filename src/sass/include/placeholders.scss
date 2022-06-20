@@ -1,0 +1,16 @@
+%flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+%child-mb{
+    :nth-child(n):not(:last-child):not(li){
+        margin-bottom: 15px;
+    }
+}

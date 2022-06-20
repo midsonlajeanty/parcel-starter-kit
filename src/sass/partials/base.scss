@@ -1,0 +1,7 @@
+body{
+    @extend %flex-center;
+    flex-direction: column;
+    background-color: $master-color;
+    color: $sub-color;
+    height: 100vh;
+}
